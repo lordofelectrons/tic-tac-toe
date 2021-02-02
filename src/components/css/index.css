@@ -1,0 +1,608 @@
+body {
+  font-family: 'Times New Roman', sans-serif;
+  font-size: 18px;
+  background-color: rgb(220, 220, 220);
+  padding: 0;
+  margin: 0;
+  border: 0;
+ }
+
+img {
+ max-width: 100%;
+ height: auto;
+ float: left;
+}
+
+#ttl {
+  font-size: 25px;
+  font-style: italic;
+  color: grey;
+}
+
+#resavatar img {
+  max-width: 50%;
+}
+
+div.oneRecord {
+  width: 100%;
+  height: auto;
+  outline: 1px solid black;
+  display: block;
+}
+
+.oneRecord font {
+  width: auto;
+  display: block;
+}
+
+.oneRecord div {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  align-content: center;
+}
+
+.oneRecord img {
+  display: inline-block;
+  max-width: 200px;
+  width: auto;
+  height: 200px;
+  max-height: 100%;
+  float: none;
+}
+
+.down p {
+  color: grey;
+  font-family: 'Times New Roman';
+  font-size: 16px;
+  width: 100%;
+  display: block;
+}
+
+a.but, div.but, input.but {
+  width: 100%;
+  height: 55px;
+  line-height: 55px;
+  background: rgb(100,100,100);
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+}
+
+input.butGame {
+  width: 50%;
+  height: 55px;
+  line-height: 55px;
+  background: rgb(100,100,100);
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  outline: 0;
+}
+
+.but font, .but, .butGame {
+  color: white;
+  font-family: "Times New Roman";
+  font-size: 21px;
+}
+
+font {
+  color: white;
+  font-family: "Times New Roman";
+}
+
+div.buttop {
+  width: 100%;
+  height: 55px;
+  line-height: 55px;
+  background: black;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+#rightimg {
+  width: 55px;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+a.but:hover, div.but:hover, input.but:hover  { background: rgb(120,120,120); outline: 1px solid black;}
+a.but:active, div.but:active, input.but:active { background: rgb(140,140,140); }
+
+input.butGame:hover { background: rgb(120,120,120);}
+input.butGame:active { background: rgb(140,140,140); border: 1px solid black;}
+
+div.gmblock:hover {background: rgb(200,200,200);}
+div.gmblock:active {background: rgb(180,180,180);}
+
+.main div{
+  display: inline-block;
+  vertical-align: top;
+  font-size: 0;
+  padding: 0;
+  margin: 0;
+}
+
+div.main {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#butblock {
+  width: 100%;
+}
+
+.admButBlock {
+  width: 95%;
+  height: 240px;
+  font-size: 18px;
+  border: 2px solid black;
+  border-top: 0;
+  background: black;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+#lastElem {
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+#game {
+  width: 60vw;
+  height: 60vw;
+  max-width: calc(100vh - 55px);
+  max-height: calc(100vh - 55px);
+}
+
+div.infoblock {
+  width: 60vw;
+  text-align: center;
+  align-content: center;
+}
+
+.infoblock img {
+  float: none;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.infoblock font, .oneRecord font{
+  color: black;
+  font-size: 18px;
+  display: block;
+}
+
+.feedback * {
+  display: block;
+  width: 100%;
+  resize: none;
+  margin: 2px 0;
+}
+
+div.feedback {
+  display: inline-block;
+  margin-left: auto;
+  width: 33vw;
+  height: 36vw;
+}
+
+#feedback_form {
+  float: right;
+  width: 100%;
+  margin-right: 3px;
+  display: block;
+}
+
+div.feedbacklog, div.gamelog {
+  display: inline-block;
+  float: right;
+  width: 80%;
+}
+
+div.contactblock {
+  width: 30vw;
+  display: inline-block;
+  margin: 5px;
+}
+
+.contactblock font {
+  color: black;
+  font-size: 2.5vw;
+  max-width: 20px;
+}
+
+.contactblock img {
+  width: 3vw;
+}
+
+#contact {
+  margin-top: 10px;
+  display: block;
+}
+
+#results, #enemy {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 0;
+  margin-left: 5px;
+}
+
+#someTag {
+  width: 90%;
+  text-align: center;
+  align-content: center;
+  line-height: 8vw;
+}
+
+#enemyavatar {
+  width: 8vw;
+  height: 8vw;
+  display: inline-block;
+}
+
+#resavatar {
+  width: 30%;
+  display: inline-block;
+}
+
+div.enfont {
+  font: 40px times-new-roman;
+  color: red;
+  display: block;
+}
+
+font.enfont {
+  font: 2.7vw times-new-roman;
+  color: black;
+  display: inline-block;
+  margin-top:
+}
+
+font.resfont {
+  font: 5vw times-new-roman;
+  color: black;
+}
+
+#leftBar {
+  width: 35vw;
+  display: inline-block;
+}
+
+#gamestart {
+  width: 60vw;
+  margin-left: 35vw;
+  align-content: center;
+  text-align: center;
+}
+
+.gmblock {
+  border: 2px solid black;
+  width: 19%;
+  height: 19%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.gmblock img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.gmblock.top {
+  border-top-style: none;
+}
+
+.gmblock.left {
+  border-left-style: none;
+}
+
+.gmblock.right {
+  border-right-style: none;
+}
+
+.gmblock.bottom {
+  border-bottom-style: none;
+}
+
+/*reg staff_________________________*/
+
+#rightup {
+  float: right;
+  height: 55px;
+  padding-right: 10px;
+  width: auto;
+  line-height: normal;
+}
+
+#regForm {
+  display: inline-block;
+  width: 10vw;
+  padding: 0;
+  min-width: 100px;
+  vertical-align: top;
+}
+
+#exitForm {
+  display: none;
+  width: 10vw;
+  padding-top: 12px;
+  min-width: 100px;
+  vertical-align: top;
+}
+
+#fileInp {display: block;}
+
+input.regbuts {
+  width: 90%;
+  height: 20px;
+  font-size: 12px;
+  line-height: 18px;
+  background: black;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  color: white;
+  border-radius: 2vw;
+  padding: 0;
+  outline: 0;
+  margin-top: 5px;
+  margin-right: 3px;
+  float: right;
+}
+
+input.regbuts:hover { background: rgb(148,148,148);}
+
+#curuserblock {
+  color: white;
+  display: inline-block;
+  height: 55px;
+  width: auto;
+}
+
+#curuserblock div {
+  height: 50px;
+  display: inline-block;
+  float: right;
+}
+
+img.avatars {
+  width: 41px;
+  height: 41px;
+  margin: 7px;
+}
+
+#currentUser {
+  margin: 0 0 0 auto;
+  float: right;
+}
+
+#contUserOrForm {
+  width: 35vw;
+  min-width: 110px;
+  margin: 0 10px;
+}
+
+#username {
+  display: block;
+  margin: 9px 0 0 auto;
+}
+
+#userextra {
+  display: block;
+  margin: -15px 0 0 auto;
+  font-size: 0.5em;
+}
+
+.regInp {
+  width: 15vw;
+  height: 18px;
+  font-size: 12px;
+  line-height: 18px;
+  background: black;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  border-radius: 2vw;
+  padding: 0;
+  outline: 0;
+  margin: 3px;
+}
+
+.regInp:hover { background: rgb(148,148,148);}
+
+#fileInp {
+  float: right;
+}
+
+.regLogControl {
+  width: 16vw;
+  height: 20px;
+  font-size: 12px;
+  line-height: 18px;
+  background: black;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  border-radius: 2vw;
+  padding: 0;
+  outline: 0;
+  margin: 2px 0 0 1vw;
+}
+
+#userAvatar {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 900px) {
+  .contactblock font {
+    color: black;
+    font-size: 30px;
+  }
+
+  .contactblock img {width: 30px;}
+}
+
+@media screen and (max-width: 700px) {
+  .admButBlock  {
+    width: 100%;
+    font-size: 18px;
+    display: block;
+  }
+
+
+
+  #someTag {
+    width: 90%;
+    text-align: center;
+    align-content: center;
+    line-height: 25vw;
+  }
+
+  #enemyavatar {
+    width: 20vw;
+    height: 20vw;
+    display: inline-block;
+  }
+
+  .main div{
+    display: block;
+    vertical-align: top;
+    font-size: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  div.main {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  #game {
+    width: 100vw;
+    height: 100vw;
+    max-width: none;
+    max-height: none;
+    display: block;
+  }
+
+  div.gmblock {
+    border: 2px solid black;
+    width: 19%;
+    height: 19%;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  #results {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 0;
+    margin-left: 8%;
+  }
+
+  #enemy {
+    width: 100%;
+    height: auto;
+    display: none;
+    padding: 0;
+    margin-left: 8%;
+  }
+
+  #resavatar {
+    width: 30vw;
+    display: inline-block;
+  }
+
+  font.resfont {
+    font: 12vw times-new-roman;
+    color: black;
+  }
+
+  div.infoblock {
+    width: 100%;
+    text-align: center;
+    align-content: center;
+  }
+
+  div.contactblock {
+    width: 50%;
+    display: inline-block;
+  }
+
+  .contactblock font {font-size: 4vw;}
+
+  div.feedback {
+    display: inline-block;
+    width: 49%;
+    height: 33vw;
+  }
+
+  #leftBar {
+    width: 100%;
+    display: block;
+  }
+
+  #leftimage {display: none;}
+
+  #ttl {margin-left: 7px;}
+
+  #rightimg {display: none;}
+
+  div.enfont {
+    font: 40px times-new-roman;
+    color: red;
+    display: block;
+  }
+
+  font.enfont {
+    font: 7vw times-new-roman;
+    color: black;
+    display: inline-block;
+    margin-top:
+  }
+}
